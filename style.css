@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 800px;
+    min-width: 500px;
+    min-height: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    padding: 30px;
+    h1{
+        text-transform: uppercase;
+        margin-top: 20px;
+        text-align: center;
+    }
+    h2{
+        margin-top: 10px;
+        color: #7f8c8d;
+        text-align: center;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+    .paymentStatus{
+        padding: 15px 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        /* margin-top: 20px; */
+        border: 4px dashed red;
+        width: 200px;
+        text-align: center;
+        color: red;
+        margin: 0 auto;
+        /* margin-bottom: 20px; */
+        letter-spacing: 2px;
+    }
+    .orderInfoText{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .orderInfo{
+        span{
+            font-size: 14px;
+            color: red;
+            text-decoration: underline;
+        }
+    }
+
+    table{
+        /* border-collapse: collapse; */
+        margin: 30px 0;
+        border: 2px solid #bdc3c7;
+        width: 100%;
+        thead{
+            tr{
+                th{
+                    border: 1px solid #ecf0f1;
+                    background-color: #34495e;
+                    color: #fff;
+                    padding: 15px;
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    border: 1px solid #ecf0f1;
+                    padding: 15px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .contractTerms{
+        color: #7f8c8d;
+        text-indent: 40px;
+        margin-bottom: 40px;
+        text-align: justify;
+        .wordSpacing{
+            word-spacing: 8px;
+            color: #2c3e50;
+        }
+    }
+    .contact{
+        text-align: center;
+        a{
+            color: #fff;
+            padding: 12px 24px;
+            background-color: #2980b9;
+        }
+    }
+}
